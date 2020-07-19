@@ -1,39 +1,19 @@
-import 'module-alias';
+import 'module-alias/register';
+import { API_KEYS, SENTRY_URL, PORT } from '@root/config';
+import * as sentry from '@sentry/node';
+import fastify from 'fastify';
+import * as bearerAuthPlugin from 'fastify-bearer-auth';
 
-import * as puppeteer from 'puppeteer';
+if (SENTRY_URL) sentry.init({ dsn: SENTRY_URL });
 
-import { INFLUX } from '@root/config';
+const server = fastify();
+void server.register(bearerAuthPlugin, { keys: API_KEYS });
 
-void (async () => {
-	const browser = await puppeteer.launch({
-		timeout: 0,
-		dumpio: true,
-		defaultViewport: {
-			width: 1920,
-			height: 1080
-		}
-	});
-	const page = await browser.newPage();
-	await page.goto(INFLUX.BASE_URL, { waitUntil: 'networkidle2' });
-
-	await page.type('[name=username]', INFLUX.INFLUX_LOGIN_USERNAME);
-	await page.type('[name=password]', INFLUX.INFLUX_LOGIN_PASSWORD);
-	await page.click('.cf-button-primary');
-
-	await page.waitForNavigation({
-		waitUntil: [
-			'load',
-			'domcontentloaded',
-			'networkidle2'
-		]
-	});
-
-	await page.goto(`${INFLUX.BASE_URL}/orgs/060048754532a000/dashboards/06009f370a5b0000`, { waitUntil: 'networkidle2' });
-	await page.click('[data-testid=presentation-mode-toggle]');
-
-	await page.waitFor(10000);
-
-	await page.screenshot({ path: 'heh.png' });
-
-	await browser.close();
-})();
+server.listen(PORT, err => {
+	if (err) {
+		server.log.error(err.message);
+		sentry.captureException(err);
+		process.exit(1);
+	}
+	server.log.info('Heyo');
+});

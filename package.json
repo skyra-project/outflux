@@ -9,7 +9,12 @@
     "build": "tsc -b src"
   },
   "dependencies": {
+    "@sentry/node": "^5.19.2",
+    "fastify": "^3.1.1",
+    "fastify-bearer-auth": "^5.0.1",
+    "fastify-piscina": "^2.0.0",
     "module-alias": "^2.2.2",
+    "piscina": "^1.6.3",
     "puppeteer": "^5.2.0"
   },
   "devDependencies": {
@@ -21,5 +26,9 @@
     "@typescript-eslint/parser": "^3.6.1",
     "eslint": "^7.5.0",
     "typescript": "^3.9.7"
+  },
+  "_moduleAliases": {
+    "@lib": "dist/lib",
+    "@root": "dist"
   }
 }
