@@ -10,10 +10,10 @@ const server = fastify();
 void server.register(bearerAuthPlugin, { keys: API_KEYS });
 
 server.listen(PORT, err => {
+	console.log('Heyo');
 	if (err) {
 		server.log.error(err.message);
 		sentry.captureException(err);
 		process.exit(1);
 	}
-	server.log.info('Heyo');
 });
