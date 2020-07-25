@@ -2,7 +2,7 @@
   "name": "ouflux",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "author": "QuantumlyTangled (https://github.com/QuantumlyTangled)",
+  "author": "Nejc Drobnic (https://github.com/QuantumlyTangled)",
   "license": "MIT",
   "private": true,
   "scripts": {
