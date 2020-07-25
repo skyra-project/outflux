@@ -1,4 +1,4 @@
-export const PORT = 9898;
+export const PORT = process.env.PORT || 8286;
 export const API_KEYS = new Set<string>([]);
 
 export const SENTRY_URL = '';

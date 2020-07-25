@@ -1,0 +1,12 @@
+{
+	"extends": "@skyra/eslint-config",
+	"compilerOptions": {
+		"target": "ESNext",
+		"useDefineForClassFields": true,
+		"lib": ["ESNext", "DOM"],
+		"declaration": true,
+		"declarationMap": true,
+		"removeComments": false,
+		"importsNotUsedAsValues": "error"
+	}
+}

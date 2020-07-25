@@ -1,8 +1,7 @@
-import 'module-alias';
-
-import * as puppeteer from 'puppeteer';
-
-import { INFLUX } from '../config';
+import 'module-alias/register';
+import { INFLUX } from '@root/config';
+import { resolve } from 'path';
+import puppeteer from 'puppeteer';
 
 void (async () => {
 	const browser = await puppeteer.launch({
@@ -24,11 +23,7 @@ void (async () => {
 	await page.click('.cf-button-primary');
 
 	await page.waitForNavigation({
-		waitUntil: [
-			'load',
-			'domcontentloaded',
-			'networkidle2'
-		]
+		waitUntil: ['load', 'domcontentloaded', 'networkidle2']
 	});
 
 	await page.goto(`${INFLUX.BASE_URL}/orgs/060048754532a000/dashboards/06009f370a5b0000`, { waitUntil: 'networkidle2' });
@@ -36,7 +31,7 @@ void (async () => {
 
 	await page.waitFor(10000);
 
-	await page.screenshot({ path: 'heh.png' });
+	await page.screenshot({ path: resolve(__dirname, '..', '..', '..', 'assets', 'heh.png') });
 
 	await browser.close();
 })();
