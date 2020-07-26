@@ -19,7 +19,7 @@ There are a number of guidelines considered when reviewing Pull Requests to be m
 
 -   Everything should follow [OOP paradigms] and generally rely on behaviour over state where possible. This generally helps methods be predictable, keeps the codebase simple and understandable, reduces code duplication through abstraction, and leads to efficiency and therefore scalability.
 -   Everything should follow our ESLint rules as closely as possible, and should pass lint tests even if you must disable a rule for a single line.
--   Scripts that are to be ran outside of the scope of the bot should be added to [scripts] directory and should be in the `.mjs` file format.
+-   Scripts that are to be ran outside of the scope of the service should be added to [scripts] directory and should be in the `.mjs` file format.
 
 <!-- Link Dump -->
 
