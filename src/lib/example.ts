@@ -26,7 +26,7 @@ void (async () => {
 		waitUntil: ['load', 'domcontentloaded', 'networkidle2']
 	});
 
-	await page.goto(`${INFLUX.BASE_URL}/orgs/060048754532a000/dashboards/06009f370a5b0000`, { waitUntil: 'networkidle2' });
+	await page.goto(`${INFLUX.BASE_URL}/orgs/${INFLUX.ORG_ID}/dashboards/06009f370a5b0000`, { waitUntil: 'networkidle2' });
 	await page.click('[data-testid=presentation-mode-toggle]');
 
 	await page.waitFor(10000);

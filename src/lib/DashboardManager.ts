@@ -15,7 +15,7 @@ export class DashboardManager {
 		});
 	}
 
-	// @ts-ignore TODO: Remove this when login is used
+	// @ts-ignore TODO: Remove this once login is used
 	private async login(page: puppeteer.Page) {
 		await page.goto(INFLUX.BASE_URL, { waitUntil: 'networkidle2' });
 

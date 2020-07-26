@@ -5,6 +5,7 @@ export const SENTRY_URL = '';
 
 export const INFLUX = {
 	BASE_URL: 'http://localhost:8285',
+	ORG_ID: '',
 
 	INFLUX_LOGIN_USERNAME: '',
 	INFLUX_LOGIN_PASSWORD: ''
