@@ -17,7 +17,6 @@
 	"scripts": {
 		"lint": "eslint src --ext ts --fix",
 		"format": "prettier --write src/**/*.ts",
-		"format:check": "prettier --check src/**/*.ts",
 		"update": "yarn upgrade-interactive --latest",
 		"build": "tsc -b src",
 		"clean": "tsc -b src --clean",
