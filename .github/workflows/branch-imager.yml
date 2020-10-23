@@ -52,9 +52,7 @@ jobs:
                   name: microservice_bundle
                   path: dist/
             - name: Get GitHub Branch Name
-              run: >-
-                  echo ::set-env name=GITHUB_BRANCH_NAME::$(echo ${{ github.ref }} | cut
-                  -c12- | sed -e 's/\/\|_/-/g' | sed -e 's/@//g')
+              run: echo "GITHUB_BRANCH_NAME=$(echo ${{ github.ref }} | cut -c12- | sed -e 's/\/\|_/-/g' | sed -e 's/@//g') >> $GITHUB_ENV"
             - name: Publish to Dockerhub
               uses: elgohr/Publish-Docker-Github-Action@master
               with:
@@ -78,9 +76,7 @@ jobs:
                   name: microservice_bundle
                   path: dist/
             - name: Get GitHub Branch Name
-              run: >-
-                  echo ::set-env name=GITHUB_BRANCH_NAME::$(echo ${{ github.ref }} | cut
-                  -c12- | sed -e 's/\/\|_/-/g' | sed -e 's/@//g')
+              run: echo "GITHUB_BRANCH_NAME=$(echo ${{ github.ref }} | cut -c12- | sed -e 's/\/\|_/-/g' | sed -e 's/@//g')" >> $GITHUB_ENV
             - name: Publish to Github Package Registry
               uses: elgohr/Publish-Docker-Github-Action@master
               with:
