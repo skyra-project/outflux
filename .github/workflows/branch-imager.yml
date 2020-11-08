@@ -32,7 +32,7 @@ jobs:
               with:
                   build: src
             - name: Upload Microservice bundle to artifacts
-              uses: actions/upload-artifact@v2-preview
+              uses: actions/upload-artifact@v2
               with:
                   name: microservice_bundle
                   path: dist/
@@ -47,7 +47,7 @@ jobs:
             - name: Checkout Project
               uses: actions/checkout@v2
             - name: Download build bundle artifact
-              uses: actions/download-artifact@v2-preview
+              uses: actions/download-artifact@v2
               with:
                   name: microservice_bundle
                   path: dist/
@@ -71,7 +71,7 @@ jobs:
             - name: Checkout Project
               uses: actions/checkout@v2
             - name: Download build bundle artifact
-              uses: actions/download-artifact@v2-preview
+              uses: actions/download-artifact@v2
               with:
                   name: microservice_bundle
                   path: dist/
