@@ -34,7 +34,7 @@
 	"devDependencies": {
 		"@commitlint/cli": "^11.0.0",
 		"@commitlint/config-conventional": "^11.0.0",
-		"@sapphire/prettier-config": "1.0.5",
+		"@sapphire/prettier-config": "1.0.6",
 		"@sapphire/eslint-config": "1.1.2",
 		"@sapphire/ts-config": "1.1.1",
 		"@types/jest": "^26.0.20",
