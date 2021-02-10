@@ -30,7 +30,7 @@
 		"fastify": "^3.11.0",
 		"fastify-bearer-auth": "^5.0.2",
 		"module-alias": "^2.2.2",
-		"puppeteer": "^7.0.4"
+		"puppeteer": "^6.0.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^11.0.0",
