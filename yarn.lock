@@ -2511,24 +2511,22 @@ fast-safe-stringify@^2.0.7:
   resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.0.7.tgz#124aa885899261f68aedb42a7c080de9da608743"
   integrity sha512-Utm6CdzT+6xsDk2m8S6uL8VHxNwI6Jub+e9NYTcAms28T84pTa25GJQV9j0CY0N1rM8hK4x6grpF2BQf+2qwVA==
 
-fastify-bearer-auth@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/fastify-bearer-auth/-/fastify-bearer-auth-5.0.2.tgz#51542e31957360fbb9b0da340c1b9bd8689412c9"
-  integrity sha512-0DCOvTZGVadvMzsErpMv5mlwJcHcQ4eVRdRyC4Y88lKmOszKpjndp/dIdM1rRKrsmatMDJ4RjkPMRq6Wm4JnGw==
+fastify-bearer-auth@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/fastify-bearer-auth/-/fastify-bearer-auth-5.1.0.tgz#2245eeffe1c012827852ea102148e0df7cf2b253"
+  integrity sha512-pmHzZv+aOhrhH1hv79vUU1GEcXaru/ppuxpQjGvDeL+zwH+3Zg1hCSbcUh1K9dFW0AaILrMf2l4bwVzYqtrmlQ==
   dependencies:
-    fastify-plugin "^2.0.0"
+    fastify-plugin "^3.0.0"
 
 fastify-error@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/fastify-error/-/fastify-error-0.3.0.tgz#08866323d521156375a8be7c7fcaf98df946fafb"
   integrity sha512-Jm2LMTB5rsJqlS1+cmgqqM9tTs0UrlgYR7TvDT3ZgXsUI5ib1NjQlqZHf+tDK5tVPdFGwyq02wAoJtyYIRSiFA==
 
-fastify-plugin@^2.0.0:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-2.3.4.tgz#b17abdc36a97877d88101fb86ad8a07f2c07de87"
-  integrity sha512-I+Oaj6p9oiRozbam30sh39BiuiqBda7yK2nmSPVwDCfIBlKnT8YB3MY+pRQc2Fcd07bf6KPGklHJaQ2Qu81TYQ==
-  dependencies:
-    semver "^7.3.2"
+fastify-plugin@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-3.0.0.tgz#cf1b8c8098e3b5a7c8c30e6aeb06903370c054ca"
+  integrity sha512-ZdCvKEEd92DNLps5n0v231Bha8bkz1DjnPP/aEz37rz/q42Z5JVLmgnqR4DYuNn3NXAO3IDCPyRvgvxtJ4Ym4w==
 
 fastify-warning@^0.2.0:
   version "0.2.0"
