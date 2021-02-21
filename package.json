@@ -28,7 +28,7 @@
 		"@discordjs/collection": "^0.1.6",
 		"@sentry/node": "^6.1.0",
 		"fastify": "^3.11.0",
-		"fastify-bearer-auth": "^5.0.2",
+		"fastify-bearer-auth": "^5.1.0",
 		"module-alias": "^2.2.2",
 		"puppeteer": "^6.0.0"
 	},
