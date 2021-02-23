@@ -36,7 +36,7 @@
 		"@commitlint/cli": "^11.0.0",
 		"@commitlint/config-conventional": "^11.0.0",
 		"@sapphire/eslint-config": "2.1.2",
-		"@sapphire/prettier-config": "1.0.6",
+		"@sapphire/prettier-config": "1.0.7",
 		"@sapphire/ts-config": "2.0.1",
 		"@types/jest": "^26.0.20",
 		"@types/module-alias": "^2.0.0",
