@@ -22,7 +22,7 @@
 		"clean": "tsc -b src --clean",
 		"watch": "tsc -b src -w",
 		"cloud:start": "node index.js",
-		"postinstall": "husky install .github/husky"
+		"prepare": "husky install .github/husky"
 	},
 	"dependencies": {
 		"@discordjs/collection": "^0.1.6",
