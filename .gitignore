@@ -3,9 +3,6 @@ node_modules/
 .vs/
 .idea/
 *.iml
-coverage/
-docs/
-assets/
 
 # Ignore tsc dist folder
 dist/
@@ -16,12 +13,7 @@ dist/
 !scripts/*.mjs
 **/*.js.map
 **/*.d.ts
-!src/**/*.d.ts
 **/*.tsbuildinfo
-!jest.config.js
-
-# Ignore the config file (contains sensitive information such as tokens)
-config.ts
 
 # Ignore heapsnapshot and log files
 *.heapsnapshot
@@ -29,9 +21,3 @@ config.ts
 
 # Ignore package locks
 package-lock.json
-
-# Ignore the GH cli downloaded by workflows
-gh
-
-# Ignore the "wiki" folder so we can checkout the wiki inside the same folder
-wiki/

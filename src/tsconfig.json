@@ -5,8 +5,8 @@
 		"rootDir": ".",
 		"baseUrl": ".",
 		"paths": {
-			"@lib/*": ["lib/*"],
-			"@root/*": ["*"]
+			"#lib/*": ["lib/*"],
+			"#root/*": ["*"]
 		},
 		"composite": true
 	},

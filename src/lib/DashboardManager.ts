@@ -1,4 +1,4 @@
-import { INFLUX } from '@root/config';
+import { INFLUX } from '#root/config';
 import puppeteer from 'puppeteer';
 
 export class DashboardManager {

@@ -9,18 +9,31 @@
 	"commitConvention": "angular",
 	"contributors": [
 		{
-			"login": "QuantumlyTangled",
-			"name": "Nejc Drobnic",
-			"avatar_url": "https://avatars1.githubusercontent.com/u/7919610?v=4",
-			"profile": "https://quantumlytangled.com/",
-			"contributions": ["code", "ideas", "test"]
-		},
-		{
 			"login": "Favna",
 			"name": "Jeroen Claassens",
 			"avatar_url": "https://avatars3.githubusercontent.com/u/4019718?v=4",
 			"profile": "https://favware.tech/",
-			"contributions": ["infra"]
+			"contributions": [
+				"bug",
+				"code",
+				"design",
+				"doc",
+				"ideas",
+				"infra",
+				"maintenance",
+				"platform",
+				"projectManagement",
+				"review",
+				"security",
+				"test"
+			]
+		},
+		{
+			"login": "QuantumlyTangled",
+			"name": "Nejc Drobnic",
+			"avatar_url": "https://avatars1.githubusercontent.com/u/7919610?v=4",
+			"profile": "https://quantumlytangled.com/",
+			"contributions": ["code", "ideas"]
 		}
 	],
 	"contributorsPerLine": 7

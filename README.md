@@ -1,11 +1,17 @@
-<div style="text-align:center;"><h1>Outflux</h1></div>
+<div align="center">
+
+# Outflux
+
+**Microservice for [Skyra] to take screenshots of the [InfluxDB] Dashboard using [Puppeteer]**
 
 [![GitHub](https://img.shields.io/github/license/skyra-project/outflux)](https://github.com/skyra-project/outflux/blob/main/LICENSE.md)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/skyra-project/outflux.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/skyra-project/outflux/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/skyra-project/outflux.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/skyra-project/outflux/context:javascript)
 [![Depfu](https://badges.depfu.com/badges/e367f2c68b857253ca23e1e8d73d1e14/count.svg)](https://depfu.com/github/skyra-project/outflux?project_id=14147)
 
-Microservice for [Skyra] to take screenshots of the [InfluxDB] Dashboard using [Puppeteer]
+</div>
+
+---
 
 ## Buy us some doughnuts
 
@@ -31,12 +37,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://quantumlytangled.com/"><img src="https://avatars1.githubusercontent.com/u/7919610?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nejc Drobnic</b></sub></a><br /><a href="https://github.com/skyra-project/outflux/commits?author=QuantumlyTangled" title="Code">💻</a> <a href="#ideas-QuantumlyTangled" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/skyra-project/outflux/commits?author=QuantumlyTangled" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://favware.tech/"><img src="https://avatars3.githubusercontent.com/u/4019718?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeroen Claassens</b></sub></a><br /><a href="#infra-Favna" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://favware.tech/"><img src="https://avatars3.githubusercontent.com/u/4019718?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeroen Claassens</b></sub></a><br /><a href="https://github.com/skyra-project/outflux/issues?q=author%3AFavna" title="Bug reports">🐛</a> <a href="https://github.com/skyra-project/outflux/commits?author=Favna" title="Code">💻</a> <a href="#design-Favna" title="Design">🎨</a> <a href="https://github.com/skyra-project/outflux/commits?author=Favna" title="Documentation">📖</a> <a href="#ideas-Favna" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-Favna" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Favna" title="Maintenance">🚧</a> <a href="#platform-Favna" title="Packaging/porting to new platform">📦</a> <a href="#projectManagement-Favna" title="Project Management">📆</a> <a href="https://github.com/skyra-project/outflux/pulls?q=is%3Apr+reviewed-by%3AFavna" title="Reviewed Pull Requests">👀</a> <a href="#security-Favna" title="Security">🛡️</a> <a href="https://github.com/skyra-project/outflux/commits?author=Favna" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://quantumlytangled.com/"><img src="https://avatars1.githubusercontent.com/u/7919610?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nejc Drobnic</b></sub></a><br /><a href="https://github.com/skyra-project/outflux/commits?author=QuantumlyTangled" title="Code">💻</a> <a href="#ideas-QuantumlyTangled" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->

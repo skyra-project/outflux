@@ -1,0 +1,12 @@
+version: '2.4'
+
+services:
+  outflux:
+    image: skyrabot/outflux:latest
+    container_name: outflux
+    restart: unless-stopped
+    mem_limit: 100M
+    cpus: 0.5
+    cpu_shares: 512
+    tty: true
+    build: ./

@@ -11,4 +11,4 @@ COPY dist .
 
 ENV PORT 8286
 
-CMD ["yarn", "cloud:start"]
+CMD ["node", "index.js"]

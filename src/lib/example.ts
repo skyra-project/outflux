@@ -1,5 +1,4 @@
-import 'module-alias/register';
-import { INFLUX } from '@root/config';
+import { INFLUX } from '#root/config';
 import { resolve } from 'path';
 import puppeteer from 'puppeteer';
 
