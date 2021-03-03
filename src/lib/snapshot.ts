@@ -10,8 +10,8 @@ export const createSnapshot = async (headless = true): Promise<Buffer> => {
 		args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-translate', '--disable-extensions'],
 		ignoreHTTPSErrors: true,
 		defaultViewport: {
-			width: 1920,
-			height: 1080
+			width: 1280,
+			height: 750
 		}
 	});
 
@@ -32,7 +32,7 @@ export const createSnapshot = async (headless = true): Promise<Buffer> => {
 	await page.$eval('.variables-control-bar', (element) => element.remove());
 	await page.$eval('#cf-notification-container-right-top', (element) => element.remove());
 
-	const screenshot = await page.screenshot({ fullPage: true });
+	const screenshot = await page.screenshot();
 
 	await browser.close();
 
