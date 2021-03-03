@@ -32,6 +32,8 @@ export const createSnapshot = async (headless = true): Promise<Buffer> => {
 	await page.$eval('.variables-control-bar', (element) => element.remove());
 	await page.$eval('#cf-notification-container-right-top', (element) => element.remove());
 
+	await page.mouse.click(0, 0);
+
 	const screenshot = await page.screenshot();
 
 	await browser.close();
