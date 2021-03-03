@@ -1,0 +1,16 @@
+{
+	"configurations": [
+		{
+			"type": "pwa-node",
+			"request": "launch",
+			"runtimeArgs": ["run-script", "start"],
+			"name": "Debugger",
+			"runtimeExecutable": "npm",
+			"skipFiles": ["<node_internals>/**", "node_modules/tslib/**"],
+			"internalConsoleOptions": "openOnSessionStart",
+			"console": "internalConsole",
+			"outputCapture": "std",
+			"outFiles": ["${workspaceFolder}/dist/**/*.js"]
+		}
+	]
+}
