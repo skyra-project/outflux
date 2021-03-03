@@ -7,6 +7,8 @@ export const createSnapshot = async (headless = true): Promise<Buffer> => {
 		timeout: 0,
 		dumpio: !headless,
 		headless,
+		args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-translate', '--disable-extensions'],
+		ignoreHTTPSErrors: true,
 		defaultViewport: {
 			width: 1920,
 			height: 1080
