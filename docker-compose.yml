@@ -10,3 +10,5 @@ services:
     cpu_shares: 512
     tty: true
     build: ./
+    ports:
+      - '8286:8286'
