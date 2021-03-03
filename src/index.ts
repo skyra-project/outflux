@@ -5,8 +5,6 @@ import fastify from 'fastify';
 const server = fastify();
 
 server.get('/', async (_, response) => {
-	console.log('Requesting snapshot');
-
 	const screenshot = await createSnapshot();
 
 	await response //
@@ -14,8 +12,8 @@ server.get('/', async (_, response) => {
 		.send(screenshot);
 });
 
-server.listen(Number(PORT), (err) => {
-	console.log(`Outflux listening on port ${PORT}`);
+server.listen(Number(PORT), '0.0.0.0', (err, address) => {
+	console.log(`Outflux listening on ${address}`);
 	if (err) {
 		server.log.fatal(err.message);
 		process.exit(1);
