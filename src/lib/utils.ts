@@ -18,11 +18,6 @@ export const clickByText = async (page: Page, text: string) => {
 
 export const dataTestIdSelector = (id: string) => `[data-testid="${id}"]`;
 
-export const waitForAndType = async (page: Page, selector: string, input: string) => {
-	await page.waitForSelector(selector);
-	await page.type(selector, input);
-};
-
 export const waitForAndClick = async (page: Page, selector: string) => {
 	await page.waitForSelector(selector);
 	await page.click(selector);
