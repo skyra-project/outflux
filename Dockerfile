@@ -17,11 +17,12 @@ ENV CHROME_BIN /usr/bin/chromium-browser
 ENV LIGHTHOUSE_CHROMIUM_PATH /usr/bin/chromium-browser
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD 1
 ENV PUPPETEER_EXECUTABLE_PATH /usr/bin/chromium-browser
+ENV NODE_ENV production
 
 COPY package.json ./
 COPY yarn.lock ./
 
-RUN yarn install --frozen-lockfile --link-duplicates --ignore-scripts
+RUN yarn install --frozen-lockfile --link-duplicates --ignore-scripts --production
 
 COPY dist dist/
 
