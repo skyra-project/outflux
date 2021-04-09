@@ -8,7 +8,7 @@
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/skyra-project/outflux.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/skyra-project/outflux/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/skyra-project/outflux.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/skyra-project/outflux/context:javascript)
 [![Depfu](https://badges.depfu.com/badges/e367f2c68b857253ca23e1e8d73d1e14/count.svg)](https://depfu.com/github/skyra-project/outflux?project_id=14147)
-[![Docker Pulls](https://img.shields.io/docker/pulls/skyrabot/postgres?label=postgres%20docker%20pulls&logo=docker)](https://hub.docker.com/r/skyrabot/outflux)
+[![Docker Pulls](https://img.shields.io/docker/pulls/skyrabot/outflux?label=outflux%20docker%20pulls&logo=docker)](https://hub.docker.com/r/skyrabot/outflux)
 
 </div>
 
