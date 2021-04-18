@@ -29,7 +29,7 @@
 		"prepare": "husky install .github/husky"
 	},
 	"dependencies": {
-		"fastify": "^3.14.0",
+		"fastify": "^3.14.2",
 		"puppeteer": "^8.0.0"
 	},
 	"devDependencies": {
@@ -38,9 +38,9 @@
 		"@sapphire/eslint-config": "3.0.3",
 		"@sapphire/prettier-config": "1.0.9",
 		"@sapphire/ts-config": "2.1.1",
-		"@types/node": "^14.14.35",
+		"@types/node": "^14.14.37",
 		"@types/puppeteer": "^5.4.3",
-		"@typescript-eslint/eslint-plugin": "^4.18.0",
+		"@typescript-eslint/eslint-plugin": "^4.21.0",
 		"@typescript-eslint/parser": "^4.18.0",
 		"cz-conventional-changelog": "^3.3.0",
 		"eslint": "^7.23.0",
@@ -51,9 +51,9 @@
 		"npm-run-all": "^4.1.5",
 		"prettier": "^2.2.1",
 		"pretty-quick": "^3.1.0",
-		"standard-version": "^9.1.1",
-		"tslib": "^2.1.0",
-		"typescript": "^4.2.3"
+		"standard-version": "^9.2.0",
+		"tslib": "^2.2.0",
+		"typescript": "^4.2.4"
 	},
 	"repository": {
 		"type": "git",
