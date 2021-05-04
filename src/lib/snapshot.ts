@@ -1,4 +1,4 @@
-import { clickByText, dataTestIdSelector, waitForAndClick, waitForAndType } from '#lib/utils';
+import { dataTestIdSelector, waitForAndClick, waitForAndType } from '#lib/utils';
 import { INFLUX } from '#root/config';
 import puppeteer from 'puppeteer';
 
@@ -24,7 +24,7 @@ export const createSnapshot = async (headless = true): Promise<Buffer> => {
 	await waitForAndClick(page, `button[type="submit"]${dataTestIdSelector('button')}`);
 
 	await waitForAndClick(page, dataTestIdSelector('nav-item-dashboards'));
-	await clickByText(page, 'Outflux Data');
+	await waitForAndClick(page, `${dataTestIdSelector('dashboard-card')}:nth-child(3) > div > div > span`);
 	await waitForAndClick(page, dataTestIdSelector('timerange-dropdown'));
 	await waitForAndClick(page, 'div[id="Past 24h"]');
 	await waitForAndClick(page, dataTestIdSelector('presentation-mode-toggle'));
