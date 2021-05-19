@@ -217,15 +217,15 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@sapphire/eslint-config@3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@sapphire/eslint-config/-/eslint-config-3.1.1.tgz#faf06dbbb500f9685c9841d40225a091ed281d8f"
-  integrity sha512-FIcGe47cOhM7DUfnH/lH4ZI57BnaklW7cp9wxUGOr/Van5wxvEDumVEgG47fylWbGrBlxKuzG1CrWPZNDC4iVg==
+"@sapphire/eslint-config@3.1.2":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@sapphire/eslint-config/-/eslint-config-3.1.2.tgz#93cf3ea8be5eb9079ff1235dbd01836fb3549e11"
+  integrity sha512-3azLrKgzDlZfrayrsWTIzLqtPzcB1tJ9lC04sDtq8YM3FwjvCffqff/1js+vQyL3CeF7iUlnZZf9r3IWVRjaMg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.22.0"
     "@typescript-eslint/parser" "^4.22.0"
-    eslint "^7.24.0"
-    eslint-config-prettier "^8.2.0"
+    eslint "^7.25.0"
+    eslint-config-prettier "^8.3.0"
     eslint-plugin-prettier "^3.4.0"
     prettier "^2.2.1"
     typescript "^4.2.4"
@@ -1209,7 +1209,7 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-prettier@^8.2.0:
+eslint-config-prettier@^8.2.0, eslint-config-prettier@^8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
   integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
@@ -1246,7 +1246,7 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz#f65328259305927392c938ed44eb0a5c9b2bd303"
   integrity sha512-0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==
 
-eslint@^7.24.0:
+eslint@^7.24.0, eslint@^7.25.0:
   version "7.26.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.26.0.tgz#d416fdcdcb3236cd8f282065312813f8c13982f6"
   integrity sha512-4R1ieRf52/izcZE7AlLy56uIHHDLT74Yzz2Iv2l6kDaYvEu9x+wMB5dZArVL8SYGXSYV2YAg70FcW5Y5nGGNIg==
