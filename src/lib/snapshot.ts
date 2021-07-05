@@ -26,7 +26,7 @@ export const createSnapshot = async (headless = true): Promise<Buffer> => {
 	await waitForAndClick(page, dataTestIdSelector('nav-item-dashboards'));
 	await waitForAndClick(page, `${dataTestIdSelector('dashboard-card')}:nth-child(3) > div > div > span`);
 	await waitForAndClick(page, dataTestIdSelector('timerange-dropdown'));
-	await waitForAndClick(page, 'div[id="Past 24h"]');
+	await waitForAndClick(page, 'div[id="Past 30d"]');
 	await waitForAndClick(page, dataTestIdSelector('presentation-mode-toggle'));
 
 	await page.$eval('.variables-control-bar', (element) => element.remove());
