@@ -37,7 +37,7 @@
 		"@commitlint/config-conventional": "^12.1.4",
 		"@sapphire/eslint-config": "3.2.1",
 		"@sapphire/prettier-config": "1.1.6",
-		"@sapphire/ts-config": "2.3.1",
+		"@sapphire/ts-config": "2.3.2",
 		"@types/node": "^15.14.0",
 		"@types/puppeteer": "^5.4.4",
 		"@typescript-eslint/eslint-plugin": "^4.28.4",
