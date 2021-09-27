@@ -5,7 +5,6 @@
 **Microservice for [Skyra] to take screenshots of the [InfluxDB] Dashboard using [Puppeteer]**
 
 [![GitHub](https://img.shields.io/github/license/skyra-project/outflux)](https://github.com/skyra-project/outflux/blob/main/LICENSE.md)
-[![Depfu](https://badges.depfu.com/badges/e367f2c68b857253ca23e1e8d73d1e14/count.svg)](https://depfu.com/github/skyra-project/outflux?project_id=14147)
 [![Docker Pulls](https://img.shields.io/docker/pulls/skyrabot/outflux?label=outflux%20docker%20pulls&logo=docker)](https://hub.docker.com/r/skyrabot/outflux)
 
 </div>
