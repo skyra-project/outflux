@@ -29,7 +29,7 @@
 		"prepare": "husky install .github/husky"
 	},
 	"dependencies": {
-		"fastify": "^3.21.0",
+		"fastify": "^3.21.6",
 		"puppeteer": "^10.2.0"
 	},
 	"devDependencies": {
