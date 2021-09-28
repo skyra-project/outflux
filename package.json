@@ -30,7 +30,7 @@
 	},
 	"dependencies": {
 		"fastify": "^3.21.6",
-		"puppeteer": "^10.2.0"
+		"puppeteer": "^10.4.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^13.2.0",
