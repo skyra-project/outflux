@@ -60,7 +60,7 @@
 		"url": "git+https://github.com/skyra-project/outflux.git"
 	},
 	"engines": {
-		"node": ">=14",
+		"node": ">=v14.17.6",
 		"npm": ">=6"
 	},
 	"keywords": [
