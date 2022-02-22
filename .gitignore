@@ -21,3 +21,7 @@ dist/
 
 # Ignore package locks
 package-lock.json
+
+# Yarn files
+.yarn/install-state.gz
+.yarn/build-state.yml
