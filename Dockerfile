@@ -25,11 +25,13 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD 1
 ENV PUPPETEER_EXECUTABLE_PATH /usr/bin/chromium-browser
 ENV NODE_ENV production
 
-COPY --chown=node:node package.json ./
-COPY --chown=node:node yarn.lock ./
+COPY --chown=node:node package.json .
+COPY --chown=node:node yarn.lock .
+COPY --chown=node:node .yarnrc.yml .
 COPY --chown=node:node dist dist/
+COPY --chown=node:node .yarn/ .yarn/
 
-RUN yarn install --frozen-lockfile --link-duplicates --ignore-scripts --production
+RUN yarn install --immutable
 
 ENV PORT 8286
 EXPOSE 8286
